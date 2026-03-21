@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DNS Explained - AARK Tech</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #020617;
+      padding: 15px 20px;
+      border-bottom: 1px solid #1e293b;
+    }
+
+    header h1 {
+      margin: 0;
+      color: #38bdf8;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 30px 20px;
+    }
+
+    h2 {
+      color: #38bdf8;
+      margin-top: 30px;
+    }
+
+    p {
+      color: #cbd5f5;
+    }
+
+    ul {
+      color: #cbd5f5;
+    }
+
+    .box {
+      background: #020617;
+      padding: 20px;
+      border-radius: 10px;
+      border: 1px solid #1e293b;
+      margin: 20px 0;
+    }
+
+    iframe {
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      border-top: 1px solid #1e293b;
+      background: #020617;
+      color: #94a3b8;
+    }
+
+    a {
+      color: #38bdf8;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>AARK Tech Learning</h1>
+</header>
+
+<div class="container">
+
+  <h1>DNS Explained (Beginner to Pro)</h1>
+
+  <h2>What is DNS?</h2>
+  <p>DNS (Domain Name System) is like the phonebook of the internet. It converts domain names into IP addresses.</p>
+
+  <div class="box">
+    Example: google.com → 142.250.x.x
+  </div>
+
+  <h2>Why DNS is Needed</h2>
+  <p>Humans remember names, computers use IP addresses. DNS connects both worlds.</p>
+
+  <h2>How DNS Works (Step-by-Step)</h2>
+  <ul>
+    <li>You type a website (e.g. google.com)</li>
+    <li>Your device asks DNS server</li>
+    <li>DNS finds the IP address</li>
+    <li>Your browser connects to server</li>
+    <li>Website loads</li>
+  </ul>
+
+  <h2>Types of DNS Servers</h2>
+  <ul>
+    <li><strong>Recursive Resolver</strong> (e.g. your ISP or public DNS)</li>
+    <li><strong>Root Server</strong></li>
+    <li><strong>TLD Server</strong> (.com, .org)</li>
+    <li><strong>Authoritative Server</strong></li>
+  </ul>
+
+  <h2>Common DNS Servers</h2>
+  <ul>
+    <li>Google DNS: 8.8.8.8</li>
+    <li>Cloudflare DNS: 1.1.1.1</li>
+  </ul>
+
+  <div class="box">
+    Note: 8.8.8.8 is NOT Google website — it is a DNS server.
+  </div>
+
+  <h2>Try It Yourself</h2>
+  <div class="box">
+    <p>Open terminal and run:</p>
+    <pre>nslookup google.com</pre>
+  </div>
+
+  <h2>Watch This Lesson</h2>
+  <div class="box">
+    <iframe width="100%" height="400"
+      src="https://www.youtube.com/embed/VIDEO_ID"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <h2>Next Topic</h2>
+  <ul>
+    <li><a href="ip.html">Understanding IP Addresses</a></li>
+  </ul>
+
+  <p><a href="index.html">⬅ Back to Home</a></p>
+
+</div>
+
+<footer>
+  © 2026 AARK Tech Learning
+</footer>
+
+</body>
+</html>
